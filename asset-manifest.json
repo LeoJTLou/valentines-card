@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/valentines-card/static/css/main.62ba7cce.css",
+    "main.js": "/valentines-card/static/js/main.be76c7a0.js",
+    "static/media/Meldina-GOGDO.ttf": "/valentines-card/static/media/Meldina-GOGDO.602ec71402a22403da87.ttf",
+    "index.html": "/valentines-card/index.html",
+    "main.62ba7cce.css.map": "/valentines-card/static/css/main.62ba7cce.css.map",
+    "main.be76c7a0.js.map": "/valentines-card/static/js/main.be76c7a0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.62ba7cce.css",
+    "static/js/main.be76c7a0.js"
+  ]
+}
