@@ -1,0 +1,72 @@
+div#Scene1 {
+  font-family: 'Meldina';;
+}
+
+.card {
+  margin-top: 40px;
+  padding: 25px;
+  font-size: 18pt;
+  background-color: var(--card-color);
+  min-width: 350px;
+  max-width: 400px;
+}
+
+.svgContainer, .cardContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+svg#Envelope_Unopened {
+  animation: moveUpDown 1s infinite alternate;
+  -webkit-animation: moveUpDown 1s infinite alternate;
+}
+
+g#Card {
+  animation: showCard 2s forwards;
+  -webkit-animation: showCard 2s forwards;
+}
+
+.btn {
+  padding: 15px 50px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  /*Greencolor*/color: #fff;
+  /*Whitetext*/cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+@keyframes moveUpDown {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(30px);
+  }
+}
+
+@keyframes showCard {
+  0% {
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-100px);
+    -webkit-transform: translateY(-100px);
+    -moz-transform: translateY(-100px);
+    -ms-transform: translateY(-100px);
+    -o-transform: translateY(-100px);
+  }
+}

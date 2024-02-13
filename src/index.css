@@ -1,0 +1,14 @@
+:root {
+  --card-color: #ffd1dc;
+}
+
+@font-face {
+  font-family: 'Meldina';
+  src: url(../public/fonts/Meldina-GOGDO.ttf);
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
